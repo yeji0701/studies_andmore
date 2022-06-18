@@ -1,0 +1,892 @@
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked,age_range,count
+1,0,3,Braund,male,22,1,0,A/5 21171,7.25,S,adult,1
+2,1,1,Cumings,female,38,1,0,PC 17599,71.2833,C,adult,1
+3,1,3,Heikkinen,female,26,0,0,STON/O2. 3101282,7.925,S,adult,1
+4,1,1,Futrelle,female,35,1,0,113803,53.1,S,adult,1
+5,0,3,Allen,male,35,0,0,373450,8.05,S,adult,1
+6,0,3,Moran,male,30,0,0,330877,8.4583,Q,adult,1
+7,0,1,McCarthy,male,54,0,0,17463,51.8625,S,adult,1
+8,0,3,Palsson,male,2,3,1,349909,21.075,S,child,1
+9,1,3,Johnson,female,27,0,2,347742,11.1333,S,adult,1
+10,1,2,Nasser,female,14,1,0,237736,30.0708,C,teen,1
+11,1,3,Sandstrom,female,4,1,1,PP 9549,16.7,S,child,1
+12,1,1,Bonnell,female,58,0,0,113783,26.55,S,adult,1
+13,0,3,Saundercock,male,20,0,0,A/5. 2151,8.05,S,teen,1
+14,0,3,Andersson,male,39,1,5,347082,31.275,S,adult,1
+15,0,3,Vestrom,female,14,0,0,350406,7.8542,S,teen,1
+16,1,2,Hewlett,female,55,0,0,248706,16.0,S,adult,1
+17,0,3,Rice,male,2,4,1,382652,29.125,Q,child,1
+18,1,2,Williams,male,30,0,0,244373,13.0,S,adult,1
+19,0,3,Vander Planke,female,31,1,0,345763,18.0,S,adult,1
+20,1,3,Masselmani,female,30,0,0,2649,7.225,C,adult,1
+21,0,2,Fynney,male,35,0,0,239865,26.0,S,adult,1
+22,1,2,Beesley,male,34,0,0,248698,13.0,S,adult,1
+23,1,3,McGowan,female,15,0,0,330923,8.0292,Q,teen,1
+24,1,1,Sloper,male,28,0,0,113788,35.5,S,adult,1
+25,0,3,Palsson,female,8,3,1,349909,21.075,S,child,1
+26,1,3,Asplund,female,38,1,5,347077,31.3875,S,adult,1
+27,0,3,Emir,male,30,0,0,2631,7.225,C,adult,1
+28,0,1,Fortune,male,19,3,2,19950,263.0,S,teen,1
+29,1,3,O'Dwyer,female,30,0,0,330959,7.8792,Q,adult,1
+30,0,3,Todoroff,male,30,0,0,349216,7.8958,S,adult,1
+31,0,1,Uruchurtu,male,40,0,0,PC 17601,27.7208,C,adult,1
+32,1,1,Spencer,female,30,1,0,PC 17569,146.5208,C,adult,1
+33,1,3,Glynn,female,30,0,0,335677,7.75,Q,adult,1
+34,0,2,Wheadon,male,66,0,0,C.A. 24579,10.5,S,adult,1
+35,0,1,Meyer,male,28,1,0,PC 17604,82.1708,C,adult,1
+36,0,1,Holverson,male,42,1,0,113789,52.0,S,adult,1
+37,1,3,Mamee,male,30,0,0,2677,7.2292,C,adult,1
+38,0,3,Cann,male,21,0,0,A./5. 2152,8.05,S,adult,1
+39,0,3,Vander Planke,female,18,2,0,345764,18.0,S,teen,1
+40,1,3,Nicola-Yarred,female,14,1,0,2651,11.2417,C,teen,1
+41,0,3,Ahlin,female,40,1,0,7546,9.475,S,adult,1
+42,0,2,Turpin,female,27,1,0,11668,21.0,S,adult,1
+43,0,3,Kraeff,male,30,0,0,349253,7.8958,C,adult,1
+44,1,2,Laroche,female,3,1,2,SC/Paris 2123,41.5792,C,child,1
+45,1,3,Devaney,female,19,0,0,330958,7.8792,Q,teen,1
+46,0,3,Rogers,male,30,0,0,S.C./A.4. 23567,8.05,S,adult,1
+47,0,3,Lennon,male,30,1,0,370371,15.5,Q,adult,1
+48,1,3,O'Driscoll,female,30,0,0,14311,7.75,Q,adult,1
+49,0,3,Samaan,male,30,2,0,2662,21.6792,C,adult,1
+50,0,3,Arnold-Franchi,female,18,1,0,349237,17.8,S,teen,1
+51,0,3,Panula,male,7,4,1,3101295,39.6875,S,child,1
+52,0,3,Nosworthy,male,21,0,0,A/4. 39886,7.8,S,adult,1
+53,1,1,Harper,female,49,1,0,PC 17572,76.7292,C,adult,1
+54,1,2,Faunthorpe,female,29,1,0,2926,26.0,S,adult,1
+55,0,1,Ostby,male,65,0,1,113509,61.9792,C,adult,1
+56,1,1,Woolner,male,30,0,0,19947,35.5,S,adult,1
+57,1,2,Rugg,female,21,0,0,C.A. 31026,10.5,S,adult,1
+58,0,3,Novel,male,29,0,0,2697,7.2292,C,adult,1
+59,1,2,West,female,5,1,2,C.A. 34651,27.75,S,child,1
+60,0,3,Goodwin,male,11,5,2,CA 2144,46.9,S,teen,1
+61,0,3,Sirayanian,male,22,0,0,2669,7.2292,C,adult,1
+62,1,1,Icard,female,38,0,0,113572,80.0,S,adult,1
+63,0,1,Harris,male,45,1,0,36973,83.475,S,adult,1
+64,0,3,Skoog,male,4,3,2,347088,27.9,S,child,1
+65,0,1,Stewart,male,30,0,0,PC 17605,27.7208,C,adult,1
+66,1,3,Moubarek,male,30,1,1,2661,15.2458,C,adult,1
+67,1,2,Nye,female,29,0,0,C.A. 29395,10.5,S,adult,1
+68,0,3,Crease,male,19,0,0,S.P. 3464,8.1583,S,teen,1
+69,1,3,Andersson,female,17,4,2,3101281,7.925,S,teen,1
+70,0,3,Kink,male,26,2,0,315151,8.6625,S,adult,1
+71,0,2,Jenkin,male,32,0,0,C.A. 33111,10.5,S,adult,1
+72,0,3,Goodwin,female,16,5,2,CA 2144,46.9,S,teen,1
+73,0,2,Hood,male,21,0,0,S.O.C. 14879,73.5,S,adult,1
+74,0,3,Chronopoulos,male,26,1,0,2680,14.4542,C,adult,1
+75,1,3,Bing,male,32,0,0,1601,56.4958,S,adult,1
+76,0,3,Moen,male,25,0,0,348123,7.65,S,adult,1
+77,0,3,Staneff,male,30,0,0,349208,7.8958,S,adult,1
+78,0,3,Moutal,male,30,0,0,374746,8.05,S,adult,1
+79,1,2,Caldwell,male,1,0,2,248738,29.0,S,child,1
+80,1,3,Dowdell,female,30,0,0,364516,12.475,S,adult,1
+81,0,3,Waelens,male,22,0,0,345767,9.0,S,adult,1
+82,1,3,Sheerlinck,male,29,0,0,345779,9.5,S,adult,1
+83,1,3,McDermott,female,30,0,0,330932,7.7875,Q,adult,1
+84,0,1,Carrau,male,28,0,0,113059,47.1,S,adult,1
+85,1,2,Ilett,female,17,0,0,SO/C 14885,10.5,S,teen,1
+86,1,3,Backstrom,female,33,3,0,3101278,15.85,S,adult,1
+87,0,3,Ford,male,16,1,3,W./C. 6608,34.375,S,teen,1
+88,0,3,Slocovski,male,30,0,0,SOTON/OQ 392086,8.05,S,adult,1
+89,1,1,Fortune,female,23,3,2,19950,263.0,S,adult,1
+90,0,3,Celotti,male,24,0,0,343275,8.05,S,adult,1
+91,0,3,Christmann,male,29,0,0,343276,8.05,S,adult,1
+92,0,3,Andreasson,male,20,0,0,347466,7.8542,S,teen,1
+93,0,1,Chaffee,male,46,1,0,W.E.P. 5734,61.175,S,adult,1
+94,0,3,Dean,male,26,1,2,C.A. 2315,20.575,S,adult,1
+95,0,3,Coxon,male,59,0,0,364500,7.25,S,adult,1
+96,0,3,Shorney,male,30,0,0,374910,8.05,S,adult,1
+97,0,1,Goldschmidt,male,71,0,0,PC 17754,34.6542,C,adult,1
+98,1,1,Greenfield,male,23,0,1,PC 17759,63.3583,C,adult,1
+99,1,2,Doling,female,34,0,1,231919,23.0,S,adult,1
+100,0,2,Kantor,male,34,1,0,244367,26.0,S,adult,1
+101,0,3,Petranec,female,28,0,0,349245,7.8958,S,adult,1
+102,0,3,Petroff,male,30,0,0,349215,7.8958,S,adult,1
+103,0,1,White,male,21,0,1,35281,77.2875,S,adult,1
+104,0,3,Johansson,male,33,0,0,7540,8.6542,S,adult,1
+105,0,3,Gustafsson,male,37,2,0,3101276,7.925,S,adult,1
+106,0,3,Mionoff,male,28,0,0,349207,7.8958,S,adult,1
+107,1,3,Salkjelsvik,female,21,0,0,343120,7.65,S,adult,1
+108,1,3,Moss,male,30,0,0,312991,7.775,S,adult,1
+109,0,3,Rekic,male,38,0,0,349249,7.8958,S,adult,1
+110,1,3,Moran,female,30,1,0,371110,24.15,Q,adult,1
+111,0,1,Porter,male,47,0,0,110465,52.0,S,adult,1
+112,0,3,Zabour,female,15,1,0,2665,14.4542,C,teen,1
+113,0,3,Barton,male,22,0,0,324669,8.05,S,adult,1
+114,0,3,Jussila,female,20,1,0,4136,9.825,S,teen,1
+115,0,3,Attalah,female,17,0,0,2627,14.4583,C,teen,1
+116,0,3,Pekoniemi,male,21,0,0,STON/O 2. 3101294,7.925,S,adult,1
+117,0,3,Connors,male,71,0,0,370369,7.75,Q,adult,1
+118,0,2,Turpin,male,29,1,0,11668,21.0,S,adult,1
+119,0,1,Baxter,male,24,0,1,PC 17558,247.5208,C,adult,1
+120,0,3,Andersson,female,2,4,2,347082,31.275,S,child,1
+121,0,2,Hickman,male,21,2,0,S.O.C. 14879,73.5,S,adult,1
+122,0,3,Moore,male,30,0,0,A4. 54510,8.05,S,adult,1
+123,0,2,Nasser,male,33,1,0,237736,30.0708,C,adult,1
+124,1,2,Webber,female,33,0,0,27267,13.0,S,adult,1
+125,0,1,White,male,54,0,1,35281,77.2875,S,adult,1
+126,1,3,Nicola-Yarred,male,12,1,0,2651,11.2417,C,teen,1
+127,0,3,McMahon,male,30,0,0,370372,7.75,Q,adult,1
+128,1,3,Madsen,male,24,0,0,C 17369,7.1417,S,adult,1
+129,1,3,Peter,female,30,1,1,2668,22.3583,C,adult,1
+130,0,3,Ekstrom,male,45,0,0,347061,6.975,S,adult,1
+131,0,3,Drazenoic,male,33,0,0,349241,7.8958,C,adult,1
+132,0,3,Coelho,male,20,0,0,SOTON/O.Q. 3101307,7.05,S,teen,1
+133,0,3,Robins,female,47,1,0,A/5. 3337,14.5,S,adult,1
+134,1,2,Weisz,female,29,1,0,228414,26.0,S,adult,1
+135,0,2,Sobey,male,25,0,0,C.A. 29178,13.0,S,adult,1
+136,0,2,Richard,male,23,0,0,SC/PARIS 2133,15.0458,C,adult,1
+137,1,1,Newsom,female,19,0,2,11752,26.2833,S,teen,1
+138,0,1,Futrelle,male,37,1,0,113803,53.1,S,adult,1
+139,0,3,Osen,male,16,0,0,7534,9.2167,S,teen,1
+140,0,1,Giglio,male,24,0,0,PC 17593,79.2,C,adult,1
+141,0,3,Boulos,female,30,0,2,2678,15.2458,C,adult,1
+142,1,3,Nysten,female,22,0,0,347081,7.75,S,adult,1
+143,1,3,Hakkarainen,female,24,1,0,STON/O2. 3101279,15.85,S,adult,1
+144,0,3,Burke,male,19,0,0,365222,6.75,Q,teen,1
+145,0,2,Andrew,male,18,0,0,231945,11.5,S,teen,1
+146,0,2,Nicholls,male,19,1,1,C.A. 33112,36.75,S,teen,1
+147,1,3,Andersson,male,27,0,0,350043,7.7958,S,adult,1
+148,0,3,Ford,female,9,2,2,W./C. 6608,34.375,S,child,1
+149,0,2,Navratil,male,37,0,2,230080,26.0,S,adult,1
+150,0,2,Byles,male,42,0,0,244310,13.0,S,adult,1
+151,0,2,Bateman,male,51,0,0,S.O.P. 1166,12.525,S,adult,1
+152,1,1,Pears,female,22,1,0,113776,66.6,S,adult,1
+153,0,3,Meo,male,56,0,0,A.5. 11206,8.05,S,adult,1
+154,0,3,van Billiard,male,41,0,2,A/5. 851,14.5,S,adult,1
+155,0,3,Olsen,male,30,0,0,Fa 265302,7.3125,S,adult,1
+156,0,1,Williams,male,51,0,1,PC 17597,61.3792,C,adult,1
+157,1,3,Gilnagh,female,16,0,0,35851,7.7333,Q,teen,1
+158,0,3,Corn,male,30,0,0,SOTON/OQ 392090,8.05,S,adult,1
+159,0,3,Smiljanic,male,30,0,0,315037,8.6625,S,adult,1
+160,0,3,Sage,male,30,8,2,CA. 2343,69.55,S,adult,1
+161,0,3,Cribb,male,44,0,1,371362,16.1,S,adult,1
+162,1,2,Watt,female,40,0,0,C.A. 33595,15.75,S,adult,1
+163,0,3,Bengtsson,male,26,0,0,347068,7.775,S,adult,1
+164,0,3,Calic,male,17,0,0,315093,8.6625,S,teen,1
+165,0,3,Panula,male,1,4,1,3101295,39.6875,S,child,1
+166,1,3,Goldsmith,male,9,0,2,363291,20.525,S,child,1
+167,1,1,Chibnall,female,30,0,1,113505,55.0,S,adult,1
+168,0,3,Skoog,female,45,1,4,347088,27.9,S,adult,1
+169,0,1,Baumann,male,30,0,0,PC 17318,25.925,S,adult,1
+170,0,3,Ling,male,28,0,0,1601,56.4958,S,adult,1
+171,0,1,Van der hoef,male,61,0,0,111240,33.5,S,adult,1
+172,0,3,Rice,male,4,4,1,382652,29.125,Q,child,1
+173,1,3,Johnson,female,1,1,1,347742,11.1333,S,child,1
+174,0,3,Sivola,male,21,0,0,STON/O 2. 3101280,7.925,S,adult,1
+175,0,1,Smith,male,56,0,0,17764,30.6958,C,adult,1
+176,0,3,Klasen,male,18,1,1,350404,7.8542,S,teen,1
+177,0,3,Lefebre,male,30,3,1,4133,25.4667,S,adult,1
+178,0,1,Isham,female,50,0,0,PC 17595,28.7125,C,adult,1
+179,0,2,Hale,male,30,0,0,250653,13.0,S,adult,1
+180,0,3,Leonard,male,36,0,0,LINE,0.0,S,adult,1
+181,0,3,Sage,female,30,8,2,CA. 2343,69.55,S,adult,1
+182,0,2,Pernot,male,30,0,0,SC/PARIS 2131,15.05,C,adult,1
+183,0,3,Asplund,male,9,4,2,347077,31.3875,S,child,1
+184,1,2,Becker,male,1,2,1,230136,39.0,S,child,1
+185,1,3,Kink-Heilmann,female,4,0,2,315153,22.025,S,child,1
+186,0,1,Rood,male,30,0,0,113767,50.0,S,adult,1
+187,1,3,O'Brien,female,30,1,0,370365,15.5,Q,adult,1
+188,1,1,Romaine,male,45,0,0,111428,26.55,S,adult,1
+189,0,3,Bourke,male,40,1,1,364849,15.5,Q,adult,1
+190,0,3,Turcin,male,36,0,0,349247,7.8958,S,adult,1
+191,1,2,Pinsky,female,32,0,0,234604,13.0,S,adult,1
+192,0,2,Carbines,male,19,0,0,28424,13.0,S,teen,1
+193,1,3,Andersen-Jensen,female,19,1,0,350046,7.8542,S,teen,1
+194,1,2,Navratil,male,3,1,1,230080,26.0,S,child,1
+195,1,1,Brown,female,44,0,0,PC 17610,27.7208,C,adult,1
+196,1,1,Lurette,female,58,0,0,PC 17569,146.5208,C,adult,1
+197,0,3,Mernagh,male,30,0,0,368703,7.75,Q,adult,1
+198,0,3,Olsen,male,42,0,1,4579,8.4042,S,adult,1
+199,1,3,Madigan,female,30,0,0,370370,7.75,Q,adult,1
+200,0,2,Yrois,female,24,0,0,248747,13.0,S,adult,1
+201,0,3,Vande Walle,male,28,0,0,345770,9.5,S,adult,1
+202,0,3,Sage,male,30,8,2,CA. 2343,69.55,S,adult,1
+203,0,3,Johanson,male,34,0,0,3101264,6.4958,S,adult,1
+204,0,3,Youseff,male,46,0,0,2628,7.225,C,adult,1
+205,1,3,Cohen,male,18,0,0,A/5 3540,8.05,S,teen,1
+206,0,3,Strom,female,2,0,1,347054,10.4625,S,child,1
+207,0,3,Backstrom,male,32,1,0,3101278,15.85,S,adult,1
+208,1,3,Albimona,male,26,0,0,2699,18.7875,C,adult,1
+209,1,3,Carr,female,16,0,0,367231,7.75,Q,teen,1
+210,1,1,Blank,male,40,0,0,112277,31.0,C,adult,1
+211,0,3,Ali,male,24,0,0,SOTON/O.Q. 3101311,7.05,S,adult,1
+212,1,2,Cameron,female,35,0,0,F.C.C. 13528,21.0,S,adult,1
+213,0,3,Perkin,male,22,0,0,A/5 21174,7.25,S,adult,1
+214,0,2,Givard,male,30,0,0,250646,13.0,S,adult,1
+215,0,3,Kiernan,male,30,1,0,367229,7.75,Q,adult,1
+216,1,1,Newell,female,31,1,0,35273,113.275,C,adult,1
+217,1,3,Honkanen,female,27,0,0,STON/O2. 3101283,7.925,S,adult,1
+218,0,2,Jacobsohn,male,42,1,0,243847,27.0,S,adult,1
+219,1,1,Bazzani,female,32,0,0,11813,76.2917,C,adult,1
+220,0,2,Harris,male,30,0,0,W/C 14208,10.5,S,adult,1
+221,1,3,Sunderland,male,16,0,0,SOTON/OQ 392089,8.05,S,teen,1
+222,0,2,Bracken,male,27,0,0,220367,13.0,S,adult,1
+223,0,3,Green,male,51,0,0,21440,8.05,S,adult,1
+224,0,3,Nenkoff,male,30,0,0,349234,7.8958,S,adult,1
+225,1,1,Hoyt,male,38,1,0,19943,90.0,S,adult,1
+226,0,3,Berglund,male,22,0,0,PP 4348,9.35,S,adult,1
+227,1,2,Mellors,male,19,0,0,SW/PP 751,10.5,S,teen,1
+228,0,3,Lovell,male,21,0,0,A/5 21173,7.25,S,adult,1
+229,0,2,Fahlstrom,male,18,0,0,236171,13.0,S,teen,1
+230,0,3,Lefebre,female,30,3,1,4133,25.4667,S,adult,1
+231,1,1,Harris,female,35,1,0,36973,83.475,S,adult,1
+232,0,3,Larsson,male,29,0,0,347067,7.775,S,adult,1
+233,0,2,Sjostedt,male,59,0,0,237442,13.5,S,adult,1
+234,1,3,Asplund,female,5,4,2,347077,31.3875,S,child,1
+235,0,2,Leyson,male,24,0,0,C.A. 29566,10.5,S,adult,1
+236,0,3,Harknett,female,30,0,0,W./C. 6609,7.55,S,adult,1
+237,0,2,Hold,male,44,1,0,26707,26.0,S,adult,1
+238,1,2,Collyer,female,8,0,2,C.A. 31921,26.25,S,child,1
+239,0,2,Pengelly,male,19,0,0,28665,10.5,S,teen,1
+240,0,2,Hunt,male,33,0,0,SCO/W 1585,12.275,S,adult,1
+241,0,3,Zabour,female,30,1,0,2665,14.4542,C,adult,1
+242,1,3,Murphy,female,30,1,0,367230,15.5,Q,adult,1
+243,0,2,Coleridge,male,29,0,0,W./C. 14263,10.5,S,adult,1
+244,0,3,Maenpaa,male,22,0,0,STON/O 2. 3101275,7.125,S,adult,1
+245,0,3,Attalah,male,30,0,0,2694,7.225,C,adult,1
+246,0,1,Minahan,male,44,2,0,19928,90.0,Q,adult,1
+247,0,3,Lindahl,female,25,0,0,347071,7.775,S,adult,1
+248,1,2,Hamalainen,female,24,0,2,250649,14.5,S,adult,1
+249,1,1,Beckwith,male,37,1,1,11751,52.5542,S,adult,1
+250,0,2,Carter,male,54,1,0,244252,26.0,S,adult,1
+251,0,3,Reed,male,30,0,0,362316,7.25,S,adult,1
+252,0,3,Strom,female,29,1,1,347054,10.4625,S,adult,1
+253,0,1,Stead,male,62,0,0,113514,26.55,S,adult,1
+254,0,3,Lobb,male,30,1,0,A/5. 3336,16.1,S,adult,1
+255,0,3,Rosblom,female,41,0,2,370129,20.2125,S,adult,1
+256,1,3,Touma,female,29,0,2,2650,15.2458,C,adult,1
+257,1,1,Thorne,female,30,0,0,PC 17585,79.2,C,adult,1
+258,1,1,Cherry,female,30,0,0,110152,86.5,S,adult,1
+259,1,1,Ward,female,35,0,0,PC 17755,512.3292,C,adult,1
+260,1,2,Parrish,female,50,0,1,230433,26.0,S,adult,1
+261,0,3,Smith,male,30,0,0,384461,7.75,Q,adult,1
+262,1,3,Asplund,male,3,4,2,347077,31.3875,S,child,1
+263,0,1,Taussig,male,52,1,1,110413,79.65,S,adult,1
+264,0,1,Harrison,male,40,0,0,112059,0.0,S,adult,1
+265,0,3,Henry,female,30,0,0,382649,7.75,Q,adult,1
+266,0,2,Reeves,male,36,0,0,C.A. 17248,10.5,S,adult,1
+267,0,3,Panula,male,16,4,1,3101295,39.6875,S,teen,1
+268,1,3,Persson,male,25,1,0,347083,7.775,S,adult,1
+269,1,1,Graham,female,58,0,1,PC 17582,153.4625,S,adult,1
+270,1,1,Bissette,female,35,0,0,PC 17760,135.6333,S,adult,1
+271,0,1,Cairns,male,30,0,0,113798,31.0,S,adult,1
+272,1,3,Tornquist,male,25,0,0,LINE,0.0,S,adult,1
+273,1,2,Mellinger,female,41,0,1,250644,19.5,S,adult,1
+274,0,1,Natsch,male,37,0,1,PC 17596,29.7,C,adult,1
+275,1,3,Healy,female,30,0,0,370375,7.75,Q,adult,1
+276,1,1,Andrews,female,63,1,0,13502,77.9583,S,adult,1
+277,0,3,Lindblom,female,45,0,0,347073,7.75,S,adult,1
+278,0,2,Parkes,male,30,0,0,239853,0.0,S,adult,1
+279,0,3,Rice,male,7,4,1,382652,29.125,Q,child,1
+280,1,3,Abbott,female,35,1,1,C.A. 2673,20.25,S,adult,1
+281,0,3,Duane,male,65,0,0,336439,7.75,Q,adult,1
+282,0,3,Olsson,male,28,0,0,347464,7.8542,S,adult,1
+283,0,3,de Pelsmaeker,male,16,0,0,345778,9.5,S,teen,1
+284,1,3,Dorking,male,19,0,0,A/5. 10482,8.05,S,teen,1
+285,0,1,Smith,male,30,0,0,113056,26.0,S,adult,1
+286,0,3,Stankovic,male,33,0,0,349239,8.6625,C,adult,1
+287,1,3,de Mulder,male,30,0,0,345774,9.5,S,adult,1
+288,0,3,Naidenoff,male,22,0,0,349206,7.8958,S,adult,1
+289,1,2,Hosono,male,42,0,0,237798,13.0,S,adult,1
+290,1,3,Connolly,female,22,0,0,370373,7.75,Q,adult,1
+291,1,1,Barber,female,26,0,0,19877,78.85,S,adult,1
+292,1,1,Bishop,female,19,1,0,11967,91.0792,C,teen,1
+293,0,2,Levy,male,36,0,0,SC/Paris 2163,12.875,C,adult,1
+294,0,3,Haas,female,24,0,0,349236,8.85,S,adult,1
+295,0,3,Mineff,male,24,0,0,349233,7.8958,S,adult,1
+296,0,1,Lewy,male,30,0,0,PC 17612,27.7208,C,adult,1
+297,0,3,Hanna,male,24,0,0,2693,7.2292,C,adult,1
+298,0,1,Allison,female,2,1,2,113781,151.55,S,child,1
+299,1,1,Saalfeld,male,30,0,0,19988,30.5,S,adult,1
+300,1,1,Baxter,female,50,0,1,PC 17558,247.5208,C,adult,1
+301,1,3,Kelly,female,30,0,0,9234,7.75,Q,adult,1
+302,1,3,McCoy,male,30,2,0,367226,23.25,Q,adult,1
+303,0,3,Johnson,male,19,0,0,LINE,0.0,S,teen,1
+304,1,2,Keane,female,30,0,0,226593,12.35,Q,adult,1
+305,0,3,Williams,male,30,0,0,A/5 2466,8.05,S,adult,1
+306,1,1,Allison,male,1,1,2,113781,151.55,S,child,1
+307,1,1,Fleming,female,30,0,0,17421,110.8833,C,adult,1
+308,1,1,Penasco y Castellana,female,17,1,0,PC 17758,108.9,C,teen,1
+309,0,2,Abelson,male,30,1,0,P/PP 3381,24.0,C,adult,1
+310,1,1,Francatelli,female,30,0,0,PC 17485,56.9292,C,adult,1
+311,1,1,Hays,female,24,0,0,11767,83.1583,C,adult,1
+312,1,1,Ryerson,female,18,2,2,PC 17608,262.375,C,teen,1
+313,0,2,Lahtinen,female,26,1,1,250651,26.0,S,adult,1
+314,0,3,Hendekovic,male,28,0,0,349243,7.8958,S,adult,1
+315,0,2,Hart,male,43,1,1,F.C.C. 13529,26.25,S,adult,1
+316,1,3,Nilsson,female,26,0,0,347470,7.8542,S,adult,1
+317,1,2,Kantor,female,24,1,0,244367,26.0,S,adult,1
+318,0,2,Moraweck,male,54,0,0,29011,14.0,S,adult,1
+319,1,1,Wick,female,31,0,2,36928,164.8667,S,adult,1
+320,1,1,Spedden,female,40,1,1,16966,134.5,C,adult,1
+321,0,3,Dennis,male,22,0,0,A/5 21172,7.25,S,adult,1
+322,0,3,Danoff,male,27,0,0,349219,7.8958,S,adult,1
+323,1,2,Slayter,female,30,0,0,234818,12.35,Q,adult,1
+324,1,2,Caldwell,female,22,1,1,248738,29.0,S,adult,1
+325,0,3,Sage,male,30,8,2,CA. 2343,69.55,S,adult,1
+326,1,1,Young,female,36,0,0,PC 17760,135.6333,C,adult,1
+327,0,3,Nysveen,male,61,0,0,345364,6.2375,S,adult,1
+328,1,2,Ball,female,36,0,0,28551,13.0,S,adult,1
+329,1,3,Goldsmith,female,31,1,1,363291,20.525,S,adult,1
+330,1,1,Hippach,female,16,0,1,111361,57.9792,C,teen,1
+331,1,3,McCoy,female,30,2,0,367226,23.25,Q,adult,1
+332,0,1,Partner,male,46,0,0,113043,28.5,S,adult,1
+333,0,1,Graham,male,38,0,1,PC 17582,153.4625,S,adult,1
+334,0,3,Vander Planke,male,16,2,0,345764,18.0,S,teen,1
+335,1,1,Frauenthal,female,30,1,0,PC 17611,133.65,S,adult,1
+336,0,3,Denkoff,male,30,0,0,349225,7.8958,S,adult,1
+337,0,1,Pears,male,29,1,0,113776,66.6,S,adult,1
+338,1,1,Burns,female,41,0,0,16966,134.5,C,adult,1
+339,1,3,Dahl,male,45,0,0,7598,8.05,S,adult,1
+340,0,1,Blackwell,male,45,0,0,113784,35.5,S,adult,1
+341,1,2,Navratil,male,2,1,1,230080,26.0,S,child,1
+342,1,1,Fortune,female,24,3,2,19950,263.0,S,adult,1
+343,0,2,Collander,male,28,0,0,248740,13.0,S,adult,1
+344,0,2,Sedgwick,male,25,0,0,244361,13.0,S,adult,1
+345,0,2,Fox,male,36,0,0,229236,13.0,S,adult,1
+346,1,2,Brown,female,24,0,0,248733,13.0,S,adult,1
+347,1,2,Smith,female,40,0,0,31418,13.0,S,adult,1
+348,1,3,Davison,female,30,1,0,386525,16.1,S,adult,1
+349,1,3,Coutts,male,3,1,1,C.A. 37671,15.9,S,child,1
+350,0,3,Dimic,male,42,0,0,315088,8.6625,S,adult,1
+351,0,3,Odahl,male,23,0,0,7267,9.225,S,adult,1
+352,0,1,Williams-Lambert,male,30,0,0,113510,35.0,S,adult,1
+353,0,3,Elias,male,15,1,1,2695,7.2292,C,teen,1
+354,0,3,Arnold-Franchi,male,25,1,0,349237,17.8,S,adult,1
+355,0,3,Yousif,male,30,0,0,2647,7.225,C,adult,1
+356,0,3,Vanden Steen,male,28,0,0,345783,9.5,S,adult,1
+357,1,1,Bowerman,female,22,0,1,113505,55.0,S,adult,1
+358,0,2,Funk,female,38,0,0,237671,13.0,S,adult,1
+359,1,3,McGovern,female,30,0,0,330931,7.8792,Q,adult,1
+360,1,3,Mockler,female,30,0,0,330980,7.8792,Q,adult,1
+361,0,3,Skoog,male,40,1,4,347088,27.9,S,adult,1
+362,0,2,del Carlo,male,29,1,0,SC/PARIS 2167,27.7208,C,adult,1
+363,0,3,Barbara,female,45,0,1,2691,14.4542,C,adult,1
+364,0,3,Asim,male,35,0,0,SOTON/O.Q. 3101310,7.05,S,adult,1
+365,0,3,O'Brien,male,30,1,0,370365,15.5,Q,adult,1
+366,0,3,Adahl,male,30,0,0,C 7076,7.25,S,adult,1
+367,1,1,Warren,female,60,1,0,110813,75.25,C,adult,1
+368,1,3,Moussa,female,30,0,0,2626,7.2292,C,adult,1
+369,1,3,Jermyn,female,30,0,0,14313,7.75,Q,adult,1
+370,1,1,Aubart,female,24,0,0,PC 17477,69.3,C,adult,1
+371,1,1,Harder,male,25,1,0,11765,55.4417,C,adult,1
+372,0,3,Wiklund,male,18,1,0,3101267,6.4958,S,teen,1
+373,0,3,Beavan,male,19,0,0,323951,8.05,S,teen,1
+374,0,1,Ringhini,male,22,0,0,PC 17760,135.6333,C,adult,1
+375,0,3,Palsson,female,3,3,1,349909,21.075,S,child,1
+376,1,1,Meyer,female,30,1,0,PC 17604,82.1708,C,adult,1
+377,1,3,Landergren,female,22,0,0,C 7077,7.25,S,adult,1
+378,0,1,Widener,male,27,0,2,113503,211.5,C,adult,1
+379,0,3,Betros,male,20,0,0,2648,4.0125,C,teen,1
+380,0,3,Gustafsson,male,19,0,0,347069,7.775,S,teen,1
+381,1,1,Bidois,female,42,0,0,PC 17757,227.525,C,adult,1
+382,1,3,Nakid,female,1,0,2,2653,15.7417,C,child,1
+383,0,3,Tikkanen,male,32,0,0,STON/O 2. 3101293,7.925,S,adult,1
+384,1,1,Holverson,female,35,1,0,113789,52.0,S,adult,1
+385,0,3,Plotcharsky,male,30,0,0,349227,7.8958,S,adult,1
+386,0,2,Davies,male,18,0,0,S.O.C. 14879,73.5,S,teen,1
+387,0,3,Goodwin,male,1,5,2,CA 2144,46.9,S,child,1
+388,1,2,Buss,female,36,0,0,27849,13.0,S,adult,1
+389,0,3,Sadlier,male,30,0,0,367655,7.7292,Q,adult,1
+390,1,2,Lehmann,female,17,0,0,SC 1748,12.0,C,teen,1
+391,1,1,Carter,male,36,1,2,113760,120.0,S,adult,1
+392,1,3,Jansson,male,21,0,0,350034,7.7958,S,adult,1
+393,0,3,Gustafsson,male,28,2,0,3101277,7.925,S,adult,1
+394,1,1,Newell,female,23,1,0,35273,113.275,C,adult,1
+395,1,3,Sandstrom,female,24,0,2,PP 9549,16.7,S,adult,1
+396,0,3,Johansson,male,22,0,0,350052,7.7958,S,adult,1
+397,0,3,Olsson,female,31,0,0,350407,7.8542,S,adult,1
+398,0,2,McKane,male,46,0,0,28403,26.0,S,adult,1
+399,0,2,Pain,male,23,0,0,244278,10.5,S,adult,1
+400,1,2,Trout,female,28,0,0,240929,12.65,S,adult,1
+401,1,3,Niskanen,male,39,0,0,STON/O 2. 3101289,7.925,S,adult,1
+402,0,3,Adams,male,26,0,0,341826,8.05,S,adult,1
+403,0,3,Jussila,female,21,1,0,4137,9.825,S,adult,1
+404,0,3,Hakkarainen,male,28,1,0,STON/O2. 3101279,15.85,S,adult,1
+405,0,3,Oreskovic,female,20,0,0,315096,8.6625,S,teen,1
+406,0,2,Gale,male,34,1,0,28664,21.0,S,adult,1
+407,0,3,Widegren,male,51,0,0,347064,7.75,S,adult,1
+408,1,2,Richards,male,3,1,1,29106,18.75,S,child,1
+409,0,3,Birkeland,male,21,0,0,312992,7.775,S,adult,1
+410,0,3,Lefebre,female,30,3,1,4133,25.4667,S,adult,1
+411,0,3,Sdycoff,male,30,0,0,349222,7.8958,S,adult,1
+412,0,3,Hart,male,30,0,0,394140,6.8583,Q,adult,1
+413,1,1,Minahan,female,33,1,0,19928,90.0,Q,adult,1
+414,0,2,Cunningham,male,30,0,0,239853,0.0,S,adult,1
+415,1,3,Sundman,male,44,0,0,STON/O 2. 3101269,7.925,S,adult,1
+416,0,3,Meek,female,30,0,0,343095,8.05,S,adult,1
+417,1,2,Drew,female,34,1,1,28220,32.5,S,adult,1
+418,1,2,Silven,female,18,0,2,250652,13.0,S,teen,1
+419,0,2,Matthews,male,30,0,0,28228,13.0,S,adult,1
+420,0,3,Van Impe,female,10,0,2,345773,24.15,S,child,1
+421,0,3,Gheorgheff,male,30,0,0,349254,7.8958,C,adult,1
+422,0,3,Charters,male,21,0,0,A/5. 13032,7.7333,Q,adult,1
+423,0,3,Zimmerman,male,29,0,0,315082,7.875,S,adult,1
+424,0,3,Danbom,female,28,1,1,347080,14.4,S,adult,1
+425,0,3,Rosblom,male,18,1,1,370129,20.2125,S,teen,1
+426,0,3,Wiseman,male,30,0,0,A/4. 34244,7.25,S,adult,1
+427,1,2,Clarke,female,28,1,0,2003,26.0,S,adult,1
+428,1,2,Phillips,female,19,0,0,250655,26.0,S,teen,1
+429,0,3,Flynn,male,30,0,0,364851,7.75,Q,adult,1
+430,1,3,Pickard,male,32,0,0,SOTON/O.Q. 392078,8.05,S,adult,1
+431,1,1,Bjornstrom-Steffansson,male,28,0,0,110564,26.55,S,adult,1
+432,1,3,Thorneycroft,female,30,1,0,376564,16.1,S,adult,1
+433,1,2,Louch,female,42,1,0,SC/AH 3085,26.0,S,adult,1
+434,0,3,Kallio,male,17,0,0,STON/O 2. 3101274,7.125,S,teen,1
+435,0,1,Silvey,male,50,1,0,13507,55.9,S,adult,1
+436,1,1,Carter,female,14,1,2,113760,120.0,S,teen,1
+437,0,3,Ford,female,21,2,2,W./C. 6608,34.375,S,adult,1
+438,1,2,Richards,female,24,2,3,29106,18.75,S,adult,1
+439,0,1,Fortune,male,64,1,4,19950,263.0,S,adult,1
+440,0,2,Kvillner,male,31,0,0,C.A. 18723,10.5,S,adult,1
+441,1,2,Hart,female,45,1,1,F.C.C. 13529,26.25,S,adult,1
+442,0,3,Hampe,male,20,0,0,345769,9.5,S,teen,1
+443,0,3,Petterson,male,25,1,0,347076,7.775,S,adult,1
+444,1,2,Reynaldo,female,28,0,0,230434,13.0,S,adult,1
+445,1,3,Johannesen-Bratthammer,male,30,0,0,65306,8.1125,S,adult,1
+446,1,1,Dodge,male,4,0,2,33638,81.8583,S,child,1
+447,1,2,Mellinger,female,13,0,1,250644,19.5,S,teen,1
+448,1,1,Seward,male,34,0,0,113794,26.55,S,adult,1
+449,1,3,Baclini,female,5,2,1,2666,19.2583,C,child,1
+450,1,1,Peuchen,male,52,0,0,113786,30.5,S,adult,1
+451,0,2,West,male,36,1,2,C.A. 34651,27.75,S,adult,1
+452,0,3,Hagland,male,30,1,0,65303,19.9667,S,adult,1
+453,0,1,Foreman,male,30,0,0,113051,27.75,C,adult,1
+454,1,1,Goldenberg,male,49,1,0,17453,89.1042,C,adult,1
+455,0,3,Peduzzi,male,30,0,0,A/5 2817,8.05,S,adult,1
+456,1,3,Jalsevac,male,29,0,0,349240,7.8958,C,adult,1
+457,0,1,Millet,male,65,0,0,13509,26.55,S,adult,1
+458,1,1,Kenyon,female,30,1,0,17464,51.8625,S,adult,1
+459,1,2,Toomey,female,50,0,0,F.C.C. 13531,10.5,S,adult,1
+460,0,3,O'Connor,male,30,0,0,371060,7.75,Q,adult,1
+461,1,1,Anderson,male,48,0,0,19952,26.55,S,adult,1
+462,0,3,Morley,male,34,0,0,364506,8.05,S,adult,1
+463,0,1,Gee,male,47,0,0,111320,38.5,S,adult,1
+464,0,2,Milling,male,48,0,0,234360,13.0,S,adult,1
+465,0,3,Maisner,male,30,0,0,A/S 2816,8.05,S,adult,1
+466,0,3,Goncalves,male,38,0,0,SOTON/O.Q. 3101306,7.05,S,adult,1
+467,0,2,Campbell,male,30,0,0,239853,0.0,S,adult,1
+468,0,1,Smart,male,56,0,0,113792,26.55,S,adult,1
+469,0,3,Scanlan,male,30,0,0,36209,7.725,Q,adult,1
+470,1,3,Baclini,female,1,2,1,2666,19.2583,C,child,1
+471,0,3,Keefe,male,30,0,0,323592,7.25,S,adult,1
+472,0,3,Cacic,male,38,0,0,315089,8.6625,S,adult,1
+473,1,2,West,female,33,1,2,C.A. 34651,27.75,S,adult,1
+474,1,2,Jerwan,female,23,0,0,SC/AH Basle 541,13.7917,C,adult,1
+475,0,3,Strandberg,female,22,0,0,7553,9.8375,S,adult,1
+476,0,1,Clifford,male,30,0,0,110465,52.0,S,adult,1
+477,0,2,Renouf,male,34,1,0,31027,21.0,S,adult,1
+478,0,3,Braund,male,29,1,0,3460,7.0458,S,adult,1
+479,0,3,Karlsson,male,22,0,0,350060,7.5208,S,adult,1
+480,1,3,Hirvonen,female,2,0,1,3101298,12.2875,S,child,1
+481,0,3,Goodwin,male,9,5,2,CA 2144,46.9,S,child,1
+482,0,2,Frost,male,30,0,0,239854,0.0,S,adult,1
+483,0,3,Rouse,male,50,0,0,A/5 3594,8.05,S,adult,1
+484,1,3,Turkula,female,63,0,0,4134,9.5875,S,adult,1
+485,1,1,Bishop,male,25,1,0,11967,91.0792,C,adult,1
+486,0,3,Lefebre,female,30,3,1,4133,25.4667,S,adult,1
+487,1,1,Hoyt,female,35,1,0,19943,90.0,S,adult,1
+488,0,1,Kent,male,58,0,0,11771,29.7,C,adult,1
+489,0,3,Somerton,male,30,0,0,A.5. 18509,8.05,S,adult,1
+490,1,3,Coutts,male,9,1,1,C.A. 37671,15.9,S,child,1
+491,0,3,Hagland,male,30,1,0,65304,19.9667,S,adult,1
+492,0,3,Windelov,male,21,0,0,SOTON/OQ 3101317,7.25,S,adult,1
+493,0,1,Molson,male,55,0,0,113787,30.5,S,adult,1
+494,0,1,Artagaveytia,male,71,0,0,PC 17609,49.5042,C,adult,1
+495,0,3,Stanley,male,21,0,0,A/4 45380,8.05,S,adult,1
+496,0,3,Yousseff,male,30,0,0,2627,14.4583,C,adult,1
+497,1,1,Eustis,female,54,1,0,36947,78.2667,C,adult,1
+498,0,3,Shellard,male,30,0,0,C.A. 6212,15.1,S,adult,1
+499,0,1,Allison,female,25,1,2,113781,151.55,S,adult,1
+500,0,3,Svensson,male,24,0,0,350035,7.7958,S,adult,1
+501,0,3,Calic,male,17,0,0,315086,8.6625,S,teen,1
+502,0,3,Canavan,female,21,0,0,364846,7.75,Q,adult,1
+503,0,3,O'Sullivan,female,30,0,0,330909,7.6292,Q,adult,1
+504,0,3,Laitinen,female,37,0,0,4135,9.5875,S,adult,1
+505,1,1,Maioni,female,16,0,0,110152,86.5,S,teen,1
+506,0,1,Penasco y Castellana,male,18,1,0,PC 17758,108.9,C,teen,1
+507,1,2,Quick,female,33,0,2,26360,26.0,S,adult,1
+508,1,1,Bradley,male,30,0,0,111427,26.55,S,adult,1
+509,0,3,Olsen,male,28,0,0,C 4001,22.525,S,adult,1
+510,1,3,Lang,male,26,0,0,1601,56.4958,S,adult,1
+511,1,3,Daly,male,29,0,0,382651,7.75,Q,adult,1
+512,0,3,Webber,male,30,0,0,SOTON/OQ 3101316,8.05,S,adult,1
+513,1,1,McGough,male,36,0,0,PC 17473,26.2875,S,adult,1
+514,1,1,Rothschild,female,54,1,0,PC 17603,59.4,C,adult,1
+515,0,3,Coleff,male,24,0,0,349209,7.4958,S,adult,1
+516,0,1,Walker,male,47,0,0,36967,34.0208,S,adult,1
+517,1,2,Lemore,female,34,0,0,C.A. 34260,10.5,S,adult,1
+518,0,3,Ryan,male,30,0,0,371110,24.15,Q,adult,1
+519,1,2,Angle,female,36,1,0,226875,26.0,S,adult,1
+520,0,3,Pavlovic,male,32,0,0,349242,7.8958,S,adult,1
+521,1,1,Perreault,female,30,0,0,12749,93.5,S,adult,1
+522,0,3,Vovk,male,22,0,0,349252,7.8958,S,adult,1
+523,0,3,Lahoud,male,30,0,0,2624,7.225,C,adult,1
+524,1,1,Hippach,female,44,0,1,111361,57.9792,C,adult,1
+525,0,3,Kassem,male,30,0,0,2700,7.2292,C,adult,1
+526,0,3,Farrell,male,41,0,0,367232,7.75,Q,adult,1
+527,1,2,Ridsdale,female,50,0,0,W./C. 14258,10.5,S,adult,1
+528,0,1,Farthing,male,30,0,0,PC 17483,221.7792,S,adult,1
+529,0,3,Salonen,male,39,0,0,3101296,7.925,S,adult,1
+530,0,2,Hocking,male,23,2,1,29104,11.5,S,adult,1
+531,1,2,Quick,female,2,1,1,26360,26.0,S,child,1
+532,0,3,Toufik,male,30,0,0,2641,7.2292,C,adult,1
+533,0,3,Elias,male,17,1,1,2690,7.2292,C,teen,1
+534,1,3,Peter,female,30,0,2,2668,22.3583,C,adult,1
+535,0,3,Cacic,female,30,0,0,315084,8.6625,S,adult,1
+536,1,2,Hart,female,7,0,2,F.C.C. 13529,26.25,S,child,1
+537,0,1,Butt,male,45,0,0,113050,26.55,S,adult,1
+538,1,1,LeRoy,female,30,0,0,PC 17761,106.425,C,adult,1
+539,0,3,Risien,male,30,0,0,364498,14.5,S,adult,1
+540,1,1,Frolicher,female,22,0,2,13568,49.5,C,adult,1
+541,1,1,Crosby,female,36,0,2,WE/P 5735,71.0,S,adult,1
+542,0,3,Andersson,female,9,4,2,347082,31.275,S,child,1
+543,0,3,Andersson,female,11,4,2,347082,31.275,S,teen,1
+544,1,2,Beane,male,32,1,0,2908,26.0,S,adult,1
+545,0,1,Douglas,male,50,1,0,PC 17761,106.425,C,adult,1
+546,0,1,Nicholson,male,64,0,0,693,26.0,S,adult,1
+547,1,2,Beane,female,19,1,0,2908,26.0,S,teen,1
+548,1,2,Padro y Manent,male,30,0,0,SC/PARIS 2146,13.8625,C,adult,1
+549,0,3,Goldsmith,male,33,1,1,363291,20.525,S,adult,1
+550,1,2,Davies,male,8,1,1,C.A. 33112,36.75,S,child,1
+551,1,1,Thayer,male,17,0,2,17421,110.8833,C,teen,1
+552,0,2,Sharp,male,27,0,0,244358,26.0,S,adult,1
+553,0,3,O'Brien,male,30,0,0,330979,7.8292,Q,adult,1
+554,1,3,Leeni,male,22,0,0,2620,7.225,C,adult,1
+555,1,3,Ohman,female,22,0,0,347085,7.775,S,adult,1
+556,0,1,Wright,male,62,0,0,113807,26.55,S,adult,1
+557,1,1,Duff Gordon,female,48,1,0,11755,39.6,C,adult,1
+558,0,1,Robbins,male,30,0,0,PC 17757,227.525,C,adult,1
+559,1,1,Taussig,female,39,1,1,110413,79.65,S,adult,1
+560,1,3,de Messemaeker,female,36,1,0,345572,17.4,S,adult,1
+561,0,3,Morrow,male,30,0,0,372622,7.75,Q,adult,1
+562,0,3,Sivic,male,40,0,0,349251,7.8958,S,adult,1
+563,0,2,Norman,male,28,0,0,218629,13.5,S,adult,1
+564,0,3,Simmons,male,30,0,0,SOTON/OQ 392082,8.05,S,adult,1
+565,0,3,Meanwell,female,30,0,0,SOTON/O.Q. 392087,8.05,S,adult,1
+566,0,3,Davies,male,24,2,0,A/4 48871,24.15,S,adult,1
+567,0,3,Stoytcheff,male,19,0,0,349205,7.8958,S,teen,1
+568,0,3,Palsson,female,29,0,4,349909,21.075,S,adult,1
+569,0,3,Doharr,male,30,0,0,2686,7.2292,C,adult,1
+570,1,3,Jonsson,male,32,0,0,350417,7.8542,S,adult,1
+571,1,2,Harris,male,62,0,0,S.W./PP 752,10.5,S,adult,1
+572,1,1,Appleton,female,53,2,0,11769,51.4792,S,adult,1
+573,1,1,Flynn,male,36,0,0,PC 17474,26.3875,S,adult,1
+574,1,3,Kelly,female,30,0,0,14312,7.75,Q,adult,1
+575,0,3,Rush,male,16,0,0,A/4. 20589,8.05,S,teen,1
+576,0,3,Patchett,male,19,0,0,358585,14.5,S,teen,1
+577,1,2,Garside,female,34,0,0,243880,13.0,S,adult,1
+578,1,1,Silvey,female,39,1,0,13507,55.9,S,adult,1
+579,0,3,Caram,female,30,1,0,2689,14.4583,C,adult,1
+580,1,3,Jussila,male,32,0,0,STON/O 2. 3101286,7.925,S,adult,1
+581,1,2,Christy,female,25,1,1,237789,30.0,S,adult,1
+582,1,1,Thayer,female,39,1,1,17421,110.8833,C,adult,1
+583,0,2,Downton,male,54,0,0,28403,26.0,S,adult,1
+584,0,1,Ross,male,36,0,0,13049,40.125,C,adult,1
+585,0,3,Paulner,male,30,0,0,3411,8.7125,C,adult,1
+586,1,1,Taussig,female,18,0,2,110413,79.65,S,teen,1
+587,0,2,Jarvis,male,47,0,0,237565,15.0,S,adult,1
+588,1,1,Frolicher-Stehli,male,60,1,1,13567,79.2,C,adult,1
+589,0,3,Gilinski,male,22,0,0,14973,8.05,S,adult,1
+590,0,3,Murdlin,male,30,0,0,A./5. 3235,8.05,S,adult,1
+591,0,3,Rintamaki,male,35,0,0,STON/O 2. 3101273,7.125,S,adult,1
+592,1,1,Stephenson,female,52,1,0,36947,78.2667,C,adult,1
+593,0,3,Elsbury,male,47,0,0,A/5 3902,7.25,S,adult,1
+594,0,3,Bourke,female,30,0,2,364848,7.75,Q,adult,1
+595,0,2,Chapman,male,37,1,0,SC/AH 29037,26.0,S,adult,1
+596,0,3,Van Impe,male,36,1,1,345773,24.15,S,adult,1
+597,1,2,Leitch,female,30,0,0,248727,33.0,S,adult,1
+598,0,3,Johnson,male,49,0,0,LINE,0.0,S,adult,1
+599,0,3,Boulos,male,30,0,0,2664,7.225,C,adult,1
+600,1,1,Duff Gordon,male,49,1,0,PC 17485,56.9292,C,adult,1
+601,1,2,Jacobsohn,female,24,2,1,243847,27.0,S,adult,1
+602,0,3,Slabenoff,male,30,0,0,349214,7.8958,S,adult,1
+603,0,1,Harrington,male,30,0,0,113796,42.4,S,adult,1
+604,0,3,Torber,male,44,0,0,364511,8.05,S,adult,1
+605,1,1,Homer,male,35,0,0,111426,26.55,C,adult,1
+606,0,3,Lindell,male,36,1,0,349910,15.55,S,adult,1
+607,0,3,Karaic,male,30,0,0,349246,7.8958,S,adult,1
+608,1,1,Daniel,male,27,0,0,113804,30.5,S,adult,1
+609,1,2,Laroche,female,22,1,2,SC/Paris 2123,41.5792,C,adult,1
+610,1,1,Shutes,female,40,0,0,PC 17582,153.4625,S,adult,1
+611,0,3,Andersson,female,39,1,5,347082,31.275,S,adult,1
+612,0,3,Jardin,male,30,0,0,SOTON/O.Q. 3101305,7.05,S,adult,1
+613,1,3,Murphy,female,30,1,0,367230,15.5,Q,adult,1
+614,0,3,Horgan,male,30,0,0,370377,7.75,Q,adult,1
+615,0,3,Brocklebank,male,35,0,0,364512,8.05,S,adult,1
+616,1,2,Herman,female,24,1,2,220845,65.0,S,adult,1
+617,0,3,Danbom,male,34,1,1,347080,14.4,S,adult,1
+618,0,3,Lobb,female,26,1,0,A/5. 3336,16.1,S,adult,1
+619,1,2,Becker,female,4,2,1,230136,39.0,S,child,1
+620,0,2,Gavey,male,26,0,0,31028,10.5,S,adult,1
+621,0,3,Yasbeck,male,27,1,0,2659,14.4542,C,adult,1
+622,1,1,Kimball,male,42,1,0,11753,52.5542,S,adult,1
+623,1,3,Nakid,male,20,1,1,2653,15.7417,C,teen,1
+624,0,3,Hansen,male,21,0,0,350029,7.8542,S,adult,1
+625,0,3,Bowen,male,21,0,0,54636,16.1,S,adult,1
+626,0,1,Sutton,male,61,0,0,36963,32.3208,S,adult,1
+627,0,2,Kirkland,male,57,0,0,219533,12.35,Q,adult,1
+628,1,1,Longley,female,21,0,0,13502,77.9583,S,adult,1
+629,0,3,Bostandyeff,male,26,0,0,349224,7.8958,S,adult,1
+630,0,3,O'Connell,male,30,0,0,334912,7.7333,Q,adult,1
+631,1,1,Barkworth,male,80,0,0,27042,30.0,S,adult,1
+632,0,3,Lundahl,male,51,0,0,347743,7.0542,S,adult,1
+633,1,1,Stahelin-Maeglin,male,32,0,0,13214,30.5,C,adult,1
+634,0,1,Parr,male,30,0,0,112052,0.0,S,adult,1
+635,0,3,Skoog,female,9,3,2,347088,27.9,S,child,1
+636,1,2,Davis,female,28,0,0,237668,13.0,S,adult,1
+637,0,3,Leinonen,male,32,0,0,STON/O 2. 3101292,7.925,S,adult,1
+638,0,2,Collyer,male,31,1,1,C.A. 31921,26.25,S,adult,1
+639,0,3,Panula,female,41,0,5,3101295,39.6875,S,adult,1
+640,0,3,Thorneycroft,male,30,1,0,376564,16.1,S,adult,1
+641,0,3,Jensen,male,20,0,0,350050,7.8542,S,teen,1
+642,1,1,Sagesser,female,24,0,0,PC 17477,69.3,C,adult,1
+643,0,3,Skoog,female,2,3,2,347088,27.9,S,child,1
+644,1,3,Foo,male,30,0,0,1601,56.4958,S,adult,1
+645,1,3,Baclini,female,1,2,1,2666,19.2583,C,child,1
+646,1,1,Harper,male,48,1,0,PC 17572,76.7292,C,adult,1
+647,0,3,Cor,male,19,0,0,349231,7.8958,S,teen,1
+648,1,1,Simonius-Blumer,male,56,0,0,13213,35.5,C,adult,1
+649,0,3,Willey,male,30,0,0,S.O./P.P. 751,7.55,S,adult,1
+650,1,3,Stanley,female,23,0,0,CA. 2314,7.55,S,adult,1
+651,0,3,Mitkoff,male,30,0,0,349221,7.8958,S,adult,1
+652,1,2,Doling,female,18,0,1,231919,23.0,S,teen,1
+653,0,3,Kalvik,male,21,0,0,8475,8.4333,S,adult,1
+654,1,3,O'Leary,female,30,0,0,330919,7.8292,Q,adult,1
+655,0,3,Hegarty,female,18,0,0,365226,6.75,Q,teen,1
+656,0,2,Hickman,male,24,2,0,S.O.C. 14879,73.5,S,adult,1
+657,0,3,Radeff,male,30,0,0,349223,7.8958,S,adult,1
+658,0,3,Bourke,female,32,1,1,364849,15.5,Q,adult,1
+659,0,2,Eitemiller,male,23,0,0,29751,13.0,S,adult,1
+660,0,1,Newell,male,58,0,2,35273,113.275,C,adult,1
+661,1,1,Frauenthal,male,50,2,0,PC 17611,133.65,S,adult,1
+662,0,3,Badt,male,40,0,0,2623,7.225,C,adult,1
+663,0,1,Colley,male,47,0,0,5727,25.5875,S,adult,1
+664,0,3,Coleff,male,36,0,0,349210,7.4958,S,adult,1
+665,1,3,Lindqvist,male,20,1,0,STON/O 2. 3101285,7.925,S,teen,1
+666,0,2,Hickman,male,32,2,0,S.O.C. 14879,73.5,S,adult,1
+667,0,2,Butler,male,25,0,0,234686,13.0,S,adult,1
+668,0,3,Rommetvedt,male,30,0,0,312993,7.775,S,adult,1
+669,0,3,Cook,male,43,0,0,A/5 3536,8.05,S,adult,1
+670,1,1,Taylor,female,30,1,0,19996,52.0,S,adult,1
+671,1,2,Brown,female,40,1,1,29750,39.0,S,adult,1
+672,0,1,Davidson,male,31,1,0,F.C. 12750,52.0,S,adult,1
+673,0,2,Mitchell,male,70,0,0,C.A. 24580,10.5,S,adult,1
+674,1,2,Wilhelms,male,31,0,0,244270,13.0,S,adult,1
+675,0,2,Watson,male,30,0,0,239856,0.0,S,adult,1
+676,0,3,Edvardsson,male,18,0,0,349912,7.775,S,teen,1
+677,0,3,Sawyer,male,25,0,0,342826,8.05,S,adult,1
+678,1,3,Turja,female,18,0,0,4138,9.8417,S,teen,1
+679,0,3,Goodwin,female,43,1,6,CA 2144,46.9,S,adult,1
+680,1,1,Cardeza,male,36,0,1,PC 17755,512.3292,C,adult,1
+681,0,3,Peters,female,30,0,0,330935,8.1375,Q,adult,1
+682,1,1,Hassab,male,27,0,0,PC 17572,76.7292,C,adult,1
+683,0,3,Olsvigen,male,20,0,0,6563,9.225,S,teen,1
+684,0,3,Goodwin,male,14,5,2,CA 2144,46.9,S,teen,1
+685,0,2,Brown,male,60,1,1,29750,39.0,S,adult,1
+686,0,2,Laroche,male,25,1,2,SC/Paris 2123,41.5792,C,adult,1
+687,0,3,Panula,male,14,4,1,3101295,39.6875,S,teen,1
+688,0,3,Dakic,male,19,0,0,349228,10.1708,S,teen,1
+689,0,3,Fischer,male,18,0,0,350036,7.7958,S,teen,1
+690,1,1,Madill,female,15,0,1,24160,211.3375,S,teen,1
+691,1,1,Dick,male,31,1,0,17474,57.0,S,adult,1
+692,1,3,Karun,female,4,0,1,349256,13.4167,C,child,1
+693,1,3,Lam,male,30,0,0,1601,56.4958,S,adult,1
+694,0,3,Saad,male,25,0,0,2672,7.225,C,adult,1
+695,0,1,Weir,male,60,0,0,113800,26.55,S,adult,1
+696,0,2,Chapman,male,52,0,0,248731,13.5,S,adult,1
+697,0,3,Kelly,male,44,0,0,363592,8.05,S,adult,1
+698,1,3,Mullens,female,30,0,0,35852,7.7333,Q,adult,1
+699,0,1,Thayer,male,49,1,1,17421,110.8833,C,adult,1
+700,0,3,Humblen,male,42,0,0,348121,7.65,S,adult,1
+701,1,1,Astor,female,18,1,0,PC 17757,227.525,C,teen,1
+702,1,1,Silverthorne,male,35,0,0,PC 17475,26.2875,S,adult,1
+703,0,3,Barbara,female,18,0,1,2691,14.4542,C,teen,1
+704,0,3,Gallagher,male,25,0,0,36864,7.7417,Q,adult,1
+705,0,3,Hansen,male,26,1,0,350025,7.8542,S,adult,1
+706,0,2,Morley,male,39,0,0,250655,26.0,S,adult,1
+707,1,2,Kelly,female,45,0,0,223596,13.5,S,adult,1
+708,1,1,Calderhead,male,42,0,0,PC 17476,26.2875,S,adult,1
+709,1,1,Cleaver,female,22,0,0,113781,151.55,S,adult,1
+710,1,3,Moubarek,male,30,1,1,2661,15.2458,C,adult,1
+711,1,1,Mayne,female,24,0,0,PC 17482,49.5042,C,adult,1
+712,0,1,Klaber,male,30,0,0,113028,26.55,S,adult,1
+713,1,1,Taylor,male,48,1,0,19996,52.0,S,adult,1
+714,0,3,Larsson,male,29,0,0,7545,9.4833,S,adult,1
+715,0,2,Greenberg,male,52,0,0,250647,13.0,S,adult,1
+716,0,3,Soholt,male,19,0,0,348124,7.65,S,teen,1
+717,1,1,Endres,female,38,0,0,PC 17757,227.525,C,adult,1
+718,1,2,Troutt,female,27,0,0,34218,10.5,S,adult,1
+719,0,3,McEvoy,male,30,0,0,36568,15.5,Q,adult,1
+720,0,3,Johnson,male,33,0,0,347062,7.775,S,adult,1
+721,1,2,Harper,female,6,0,1,248727,33.0,S,child,1
+722,0,3,Jensen,male,17,1,0,350048,7.0542,S,teen,1
+723,0,2,Gillespie,male,34,0,0,12233,13.0,S,adult,1
+724,0,2,Hodges,male,50,0,0,250643,13.0,S,adult,1
+725,1,1,Chambers,male,27,1,0,113806,53.1,S,adult,1
+726,0,3,Oreskovic,male,20,0,0,315094,8.6625,S,teen,1
+727,1,2,Renouf,female,30,3,0,31027,21.0,S,adult,1
+728,1,3,Mannion,female,30,0,0,36866,7.7375,Q,adult,1
+729,0,2,Bryhl,male,25,1,0,236853,26.0,S,adult,1
+730,0,3,Ilmakangas,female,25,1,0,STON/O2. 3101271,7.925,S,adult,1
+731,1,1,Allen,female,29,0,0,24160,211.3375,S,adult,1
+732,0,3,Hassan,male,11,0,0,2699,18.7875,C,teen,1
+733,0,2,Knight,male,30,0,0,239855,0.0,S,adult,1
+734,0,2,Berriman,male,23,0,0,28425,13.0,S,adult,1
+735,0,2,Troupiansky,male,23,0,0,233639,13.0,S,adult,1
+736,0,3,Williams,male,29,0,0,54636,16.1,S,adult,1
+737,0,3,Ford,female,48,1,3,W./C. 6608,34.375,S,adult,1
+738,1,1,Lesurer,male,35,0,0,PC 17755,512.3292,C,adult,1
+739,0,3,Ivanoff,male,30,0,0,349201,7.8958,S,adult,1
+740,0,3,Nankoff,male,30,0,0,349218,7.8958,S,adult,1
+741,1,1,Hawksford,male,30,0,0,16988,30.0,S,adult,1
+742,0,1,Cavendish,male,36,1,0,19877,78.85,S,adult,1
+743,1,1,Ryerson,female,21,2,2,PC 17608,262.375,C,adult,1
+744,0,3,McNamee,male,24,1,0,376566,16.1,S,adult,1
+745,1,3,Stranden,male,31,0,0,STON/O 2. 3101288,7.925,S,adult,1
+746,0,1,Crosby,male,70,1,1,WE/P 5735,71.0,S,adult,1
+747,0,3,Abbott,male,16,1,1,C.A. 2673,20.25,S,teen,1
+748,1,2,Sinkkonen,female,30,0,0,250648,13.0,S,adult,1
+749,0,1,Marvin,male,19,1,0,113773,53.1,S,teen,1
+750,0,3,Connaghton,male,31,0,0,335097,7.75,Q,adult,1
+751,1,2,Wells,female,4,1,1,29103,23.0,S,child,1
+752,1,3,Moor,male,6,0,1,392096,12.475,S,child,1
+753,0,3,Vande Velde,male,33,0,0,345780,9.5,S,adult,1
+754,0,3,Jonkoff,male,23,0,0,349204,7.8958,S,adult,1
+755,1,2,Herman,female,48,1,2,220845,65.0,S,adult,1
+756,1,2,Hamalainen,male,1,1,1,250649,14.5,S,child,1
+757,0,3,Carlsson,male,28,0,0,350042,7.7958,S,adult,1
+758,0,2,Bailey,male,18,0,0,29108,11.5,S,teen,1
+759,0,3,Theobald,male,34,0,0,363294,8.05,S,adult,1
+760,1,1,Rothes,female,33,0,0,110152,86.5,S,adult,1
+761,0,3,Garfirth,male,30,0,0,358585,14.5,S,adult,1
+762,0,3,Nirva,male,41,0,0,SOTON/O2 3101272,7.125,S,adult,1
+763,1,3,Barah,male,20,0,0,2663,7.2292,C,teen,1
+764,1,1,Carter,female,36,1,2,113760,120.0,S,adult,1
+765,0,3,Eklund,male,16,0,0,347074,7.775,S,teen,1
+766,1,1,Hogeboom,female,51,1,0,13502,77.9583,S,adult,1
+767,0,1,Brewe,male,30,0,0,112379,39.6,C,adult,1
+768,0,3,Mangan,female,31,0,0,364850,7.75,Q,adult,1
+769,0,3,Moran,male,30,1,0,371110,24.15,Q,adult,1
+770,0,3,Gronnestad,male,32,0,0,8471,8.3625,S,adult,1
+771,0,3,Lievens,male,24,0,0,345781,9.5,S,adult,1
+772,0,3,Jensen,male,48,0,0,350047,7.8542,S,adult,1
+773,0,2,Mack,female,57,0,0,S.O./P.P. 3,10.5,S,adult,1
+774,0,3,Elias,male,30,0,0,2674,7.225,C,adult,1
+775,1,2,Hocking,female,54,1,3,29105,23.0,S,adult,1
+776,0,3,Myhrman,male,18,0,0,347078,7.75,S,teen,1
+777,0,3,Tobin,male,30,0,0,383121,7.75,Q,adult,1
+778,1,3,Emanuel,female,5,0,0,364516,12.475,S,child,1
+779,0,3,Kilgannon,male,30,0,0,36865,7.7375,Q,adult,1
+780,1,1,Robert,female,43,0,1,24160,211.3375,S,adult,1
+781,1,3,Ayoub,female,13,0,0,2687,7.2292,C,teen,1
+782,1,1,Dick,female,17,1,0,17474,57.0,S,teen,1
+783,0,1,Long,male,29,0,0,113501,30.0,S,adult,1
+784,0,3,Johnston,male,30,1,2,W./C. 6607,23.45,S,adult,1
+785,0,3,Ali,male,25,0,0,SOTON/O.Q. 3101312,7.05,S,adult,1
+786,0,3,Harmer,male,25,0,0,374887,7.25,S,adult,1
+787,1,3,Sjoblom,female,18,0,0,3101265,7.4958,S,teen,1
+788,0,3,Rice,male,8,4,1,382652,29.125,Q,child,1
+789,1,3,Dean,male,1,1,2,C.A. 2315,20.575,S,child,1
+790,0,1,Guggenheim,male,46,0,0,PC 17593,79.2,C,adult,1
+791,0,3,Keane,male,30,0,0,12460,7.75,Q,adult,1
+792,0,2,Gaskell,male,16,0,0,239865,26.0,S,teen,1
+793,0,3,Sage,female,30,8,2,CA. 2343,69.55,S,adult,1
+794,0,1,Hoyt,male,30,0,0,PC 17600,30.6958,C,adult,1
+795,0,3,Dantcheff,male,25,0,0,349203,7.8958,S,adult,1
+796,0,2,Otter,male,39,0,0,28213,13.0,S,adult,1
+797,1,1,Leader,female,49,0,0,17465,25.9292,S,adult,1
+798,1,3,Osman,female,31,0,0,349244,8.6833,S,adult,1
+799,0,3,Ibrahim Shawah,male,30,0,0,2685,7.2292,C,adult,1
+800,0,3,Van Impe,female,30,1,1,345773,24.15,S,adult,1
+801,0,2,Ponesell,male,34,0,0,250647,13.0,S,adult,1
+802,1,2,Collyer,female,31,1,1,C.A. 31921,26.25,S,adult,1
+803,1,1,Carter,male,11,1,2,113760,120.0,S,teen,1
+804,1,3,Thomas,male,1,0,1,2625,8.5167,C,child,1
+805,1,3,Hedman,male,27,0,0,347089,6.975,S,adult,1
+806,0,3,Johansson,male,31,0,0,347063,7.775,S,adult,1
+807,0,1,Andrews,male,39,0,0,112050,0.0,S,adult,1
+808,0,3,Pettersson,female,18,0,0,347087,7.775,S,teen,1
+809,0,2,Meyer,male,39,0,0,248723,13.0,S,adult,1
+810,1,1,Chambers,female,33,1,0,113806,53.1,S,adult,1
+811,0,3,Alexander,male,26,0,0,3474,7.8875,S,adult,1
+812,0,3,Lester,male,39,0,0,A/4 48871,24.15,S,adult,1
+813,0,2,Slemen,male,35,0,0,28206,10.5,S,adult,1
+814,0,3,Andersson,female,6,4,2,347082,31.275,S,child,1
+815,0,3,Tomlin,male,31,0,0,364499,8.05,S,adult,1
+816,0,1,Fry,male,30,0,0,112058,0.0,S,adult,1
+817,0,3,Heininen,female,23,0,0,STON/O2. 3101290,7.925,S,adult,1
+818,0,2,Mallet,male,31,1,1,S.C./PARIS 2079,37.0042,C,adult,1
+819,0,3,Holm,male,43,0,0,C 7075,6.45,S,adult,1
+820,0,3,Skoog,male,10,3,2,347088,27.9,S,child,1
+821,1,1,Hays,female,52,1,1,12749,93.5,S,adult,1
+822,1,3,Lulic,male,27,0,0,315098,8.6625,S,adult,1
+823,0,1,Reuchlin,male,38,0,0,19972,0.0,S,adult,1
+824,1,3,Moor,female,27,0,1,392096,12.475,S,adult,1
+825,0,3,Panula,male,2,4,1,3101295,39.6875,S,child,1
+826,0,3,Flynn,male,30,0,0,368323,6.95,Q,adult,1
+827,0,3,Lam,male,30,0,0,1601,56.4958,S,adult,1
+828,1,2,Mallet,male,1,0,2,S.C./PARIS 2079,37.0042,C,child,1
+829,1,3,McCormack,male,30,0,0,367228,7.75,Q,adult,1
+830,1,1,Stone,female,62,0,0,113572,80.0,S,adult,1
+831,1,3,Yasbeck,female,15,1,0,2659,14.4542,C,teen,1
+832,1,2,Richards,male,1,1,1,29106,18.75,S,child,1
+833,0,3,Saad,male,30,0,0,2671,7.2292,C,adult,1
+834,0,3,Augustsson,male,23,0,0,347468,7.8542,S,adult,1
+835,0,3,Allum,male,18,0,0,2223,8.3,S,teen,1
+836,1,1,Compton,female,39,1,1,PC 17756,83.1583,C,adult,1
+837,0,3,Pasic,male,21,0,0,315097,8.6625,S,adult,1
+838,0,3,Sirota,male,30,0,0,392092,8.05,S,adult,1
+839,1,3,Chip,male,32,0,0,1601,56.4958,S,adult,1
+840,1,1,Marechal,male,30,0,0,11774,29.7,C,adult,1
+841,0,3,Alhomaki,male,20,0,0,SOTON/O2 3101287,7.925,S,teen,1
+842,0,2,Mudd,male,16,0,0,S.O./P.P. 3,10.5,S,teen,1
+843,1,1,Serepeca,female,30,0,0,113798,31.0,C,adult,1
+844,0,3,Lemberopolous,male,35,0,0,2683,6.4375,C,adult,1
+845,0,3,Culumovic,male,17,0,0,315090,8.6625,S,teen,1
+846,0,3,Abbing,male,42,0,0,C.A. 5547,7.55,S,adult,1
+847,0,3,Sage,male,30,8,2,CA. 2343,69.55,S,adult,1
+848,0,3,Markoff,male,35,0,0,349213,7.8958,C,adult,1
+849,0,2,Harper,male,28,0,1,248727,33.0,S,adult,1
+850,1,1,Goldenberg,female,30,1,0,17453,89.1042,C,adult,1
+851,0,3,Andersson,male,4,4,2,347082,31.275,S,child,1
+852,0,3,Svensson,male,74,0,0,347060,7.775,S,adult,1
+853,0,3,Boulos,female,9,1,1,2678,15.2458,C,child,1
+854,1,1,Lines,female,16,0,1,PC 17592,39.4,S,teen,1
+855,0,2,Carter,female,44,1,0,244252,26.0,S,adult,1
+856,1,3,Aks,female,18,0,1,392091,9.35,S,teen,1
+857,1,1,Wick,female,45,1,1,36928,164.8667,S,adult,1
+858,1,1,Daly,male,51,0,0,113055,26.55,S,adult,1
+859,1,3,Baclini,female,24,0,3,2666,19.2583,C,adult,1
+860,0,3,Razi,male,30,0,0,2629,7.2292,C,adult,1
+861,0,3,Hansen,male,41,2,0,350026,14.1083,S,adult,1
+862,0,2,Giles,male,21,1,0,28134,11.5,S,adult,1
+863,1,1,Swift,female,48,0,0,17466,25.9292,S,adult,1
+864,0,3,Sage,female,30,8,2,CA. 2343,69.55,S,adult,1
+865,0,2,Gill,male,24,0,0,233866,13.0,S,adult,1
+866,1,2,Bystrom,female,42,0,0,236852,13.0,S,adult,1
+867,1,2,Duran y More,female,27,1,0,SC/PARIS 2149,13.8583,C,adult,1
+868,0,1,Roebling,male,31,0,0,PC 17590,50.4958,S,adult,1
+869,0,3,van Melkebeke,male,30,0,0,345777,9.5,S,adult,1
+870,1,3,Johnson,male,4,1,1,347742,11.1333,S,child,1
+871,0,3,Balkic,male,26,0,0,349248,7.8958,S,adult,1
+872,1,1,Beckwith,female,47,1,1,11751,52.5542,S,adult,1
+873,0,1,Carlsson,male,33,0,0,695,5.0,S,adult,1
+874,0,3,Vander Cruyssen,male,47,0,0,345765,9.0,S,adult,1
+875,1,2,Abelson,female,28,1,0,P/PP 3381,24.0,C,adult,1
+876,1,3,Najib,female,15,0,0,2667,7.225,C,teen,1
+877,0,3,Gustafsson,male,20,0,0,7534,9.8458,S,teen,1
+878,0,3,Petroff,male,19,0,0,349212,7.8958,S,teen,1
+879,0,3,Laleff,male,30,0,0,349217,7.8958,S,adult,1
+880,1,1,Potter,female,56,0,1,11767,83.1583,C,adult,1
+881,1,2,Shelley,female,25,0,1,230433,26.0,S,adult,1
+882,0,3,Markun,male,33,0,0,349257,7.8958,S,adult,1
+883,0,3,Dahlberg,female,22,0,0,7552,10.5167,S,adult,1
+884,0,2,Banfield,male,28,0,0,C.A./SOTON 34068,10.5,S,adult,1
+885,0,3,Sutehall,male,25,0,0,SOTON/OQ 392076,7.05,S,adult,1
+886,0,3,Rice,female,39,0,5,382652,29.125,Q,adult,1
+887,0,2,Montvila,male,27,0,0,211536,13.0,S,adult,1
+888,1,1,Graham,female,19,0,0,112053,30.0,S,teen,1
+889,0,3,Johnston,female,30,1,2,W./C. 6607,23.45,S,adult,1
+890,1,1,Behr,male,26,0,0,111369,30.0,C,adult,1
+891,0,3,Dooley,male,32,0,0,370376,7.75,Q,adult,1
